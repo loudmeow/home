@@ -1,8 +1,8 @@
-#a = input('Введите текст:')
-#с = a.replace('н', '!')
-#b = a.count('нн')
-#print(с)
-#print(b)
+a = input('Введите текст:')
+с = a.replace('н', '!')
+b = a.count('нн')
+print(с)
+print(b)
 
 
 
