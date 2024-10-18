@@ -31,3 +31,14 @@ else:
       print((f'Координаты 3-го вектора: {areas2[2]}'))
       print((f'Косинус угла между осью абцис и третьим вектором равен: {areas[2]}'))
 
+x = input('Введите предел:')
+x = int(x)
+b = 0
+for i in range(b, x):
+    while b <= x:
+        b = str(b)
+        if b == b[::-1]:
+            print(f'{b}')
+        b = int(b)
+        b = b + 1
+    break
