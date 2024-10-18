@@ -21,8 +21,6 @@ for i in range(1,4):
     x, y = koordinata()
     areas2.append(vektor(x, y))
     areas.append(formula(x, y))
-#for i in range(3):
-#    print(f'Координаты {i + 1}-го вектора: {areas[i]}')
 if areas[0] > areas[1] and areas[0] > areas[2] :
   print((f'Координаты 1-го вектора: {areas2[0]}'))
   print((f'Косинус угла между осью абцис и лучом равен: {areas[0]}'))
