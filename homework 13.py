@@ -1,10 +1,10 @@
-file = 'D:\Python\home.ui'
+file = 'h:\rhrthrh\home\home.ui'
 import os
 import sys
-import file # Тут ваш файл
+import file
 from PyQt6 import QtWidgets
 from PyQt6.QtWidgets import *
-from home.ui import Ui_MainWindow  # Импортируем сгенерированный файл
+from home.ui import Ui_MainWindow  
 
 class TextEditor(QMainWindow):
     def __init__(self):
